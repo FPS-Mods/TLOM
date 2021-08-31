@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "tlom:ancient_scrap"
+  },
+  "result": "tlom:ancient_ingot",
+  "experience": 5.0,
+  "cookingtime": 200
+}

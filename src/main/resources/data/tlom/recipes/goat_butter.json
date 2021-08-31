@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients":
+  [
+    {"item": "minecraft:milk_bucket"}
+  ],
+  "result":
+  {
+    "item": "tlom:goat_butter",
+    "count": 1
+  }
+}

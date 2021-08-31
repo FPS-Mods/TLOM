@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+issueTrackerURL="https://github.com/FPS-Mods/TLOM/issues"
+license="MIT"
+
+[[mods]]
+modId="tlom"
+version="${file.jarVersion}"
+displayName="The Legend of Minecraft"
+authors="FinchyMcFinch, Izumi and Chaz"
+credits="ThePhantomEye for multiple entity models"
+description='''
+The Legend of Minecraft is a mod for Minecraft that adds multiple features based on the video game franchise The Legend of Zelda.
+'''
+
+[[dependencies.tlom]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tlom]]
+    modId="minecraft"
+    mandatory=true
+    # This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

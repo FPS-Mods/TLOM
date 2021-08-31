@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "tlom:goat_butter"
+    }
+
+  ],
+  "result":
+  {
+    "item": "tlom:salmon_meuniere",
+    "count": 1
+  }
+}

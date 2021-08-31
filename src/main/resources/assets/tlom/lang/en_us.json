@@ -1,0 +1,17 @@
+{
+  "item.tlom.amber": "Amber",
+  "item.tlom.ancient_scrap": "Ancient Scrap",
+  "item.tlom.ancient_ingot": "Ancient Ingot",
+  "item.tlom.spirit_orb": "Spirit Orb",
+  "item.tlom.goat_butter": "Goat Butter",
+  "item.tlom.salmon_meuniere": "Salmon Meuniere",
+
+  "item.tlom.ancient_pickaxe": "Ancient Pickaxe",
+  "item.tlom.ancient_shovel": "Ancient Shovel",
+
+  "block.tlom.amber_ore": "Amber Ore",
+  "block.tlom.scrap_ore": "Ancient Scrap Ore",
+  "block.tlom.amber_block": "Amber Block",
+
+  "itemGroup.zeldaMod": "The Legend of Minecraft"
+}
