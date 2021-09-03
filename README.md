@@ -1,46 +1,6 @@
+![Minecraft](https://img.shields.io/static/v1?label=&message=1.16%20|%201.15&color=2d2d2d&labelColor=dddddd&style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuMjCGJ1kDAAACoElEQVQ4T22SeU8aURTF/ULGtNRWWVQY9lXABWldIDPIMgVbNgEVtaa0damiqGBdipXaJcY2ofEf4ycbTt97pVAabzK5b27u+Z377kwXgK77QthRy7OfXbeJM+ttqKSXN8sdwbT/A0L7elmsYqrPHZmROLPh5YkV4oEBwaKuHj+yyJptLDoAhbq3O1V1XCVObY3FL24mfn5oRPrcwSCRfQOyNWcjVjZdCbtcdwcgXrXUspdOKbDN/XE9tiBJMhXHT60gUIT2dMhcDLMc3NVKQklz0QIkf5qlyEcO6Qs7yPhMJB4amDMFimQSmqNlE8SKAZFzDfxHfVILIIZ10sJ3OwIbcqSuiOjchkzNCboHev9o2YhgiUP8mxnLN24I6/3ghYdtQG5iUMpFBuCP9iKwLsfiLyeCp2rMnZgwX3NArGoxW1Ridl+BzLEVKa8KSxOqNmDdz0kFnxaLHhWEgAyZigWhHXL+pEDy2ozsDxv8vAzTnh7w5kcghqCaFmCT10of4iPIT2mRdPUh4HoCcVwBH/8Ac2kzUkEV5r3EfVSOvbAJa5NDyI0r2oDtWb1EClh+OoC3Pg7v/Bw7p939yI4rsRW2Y3lKh01eh7WpIRyKZqzyjjYgPdIvlaMWRqYuG7wWryYHsRM0sFolZiPvQ3jheIwSmSBPdkByG/B6Wi3RYiVmRX7GiAPiUCRisii8D+jZNKvPBrHCW1GY0bAz6WkDCtOaSyKQFsi4K5NqNiZtehN2Y5uAShETqolhBqJXpfdPuPsuWwAaRdHSkxdc11mPqkGnyY4pyKbpl1GyJ0Pel7yqBoFcF3zqno5f+d8ohYy9Sx7lzQpxo1eirluCDgt++00p6uxttrG4F/A39sJGZWZMfrcp6O6+5kaVzXJHAOj6DeSs8qw5o8oxAAAAAElFTkSuQmCC)
+[![Curseforge](http://cf.way2muchnoise.eu/short_tlom_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/tlom)
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+# The Legend of Minecraft
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
-
-Setup Process:
-==============================
-
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
-
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
-
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-
-Additional Resources: 
-=========================
-Community Documentation: http://mcforge.readthedocs.io/en/latest/gettingstarted/  
-LexManos' Install Video: https://www.youtube.com/watch?v=8VEdtQLuLO0  
-Forge Forum: https://forums.minecraftforge.net/  
-Forge Discord: https://discord.gg/UvedJ9m  
+The Legend of Minecraft is a mod for Minecraft that adds multiple features based on the video game franchise The Legend of Zelda.
