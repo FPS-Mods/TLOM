@@ -13,7 +13,7 @@ public class TLOM {
 
     public static final String MOD_ID = "tlom";
 
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public TLOM() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
