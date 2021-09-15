@@ -3,7 +3,8 @@ package com.fps.tlom.events;
 import com.fps.tlom.TLOM;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Items;
-import net.minecraft.world.World;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -17,7 +18,7 @@ public class ModClientEvents {
         LivingEntity player = event.getEntityLiving();
         if (player.getMainHandItem().getItem() == Items.STICK){
             TLOM.LOGGER.info("Player tried to jump with a stick!");
-            World world = player.getEnti
+            player.addEffect(new EffectInstance(Effects.LEVITATION, 100));
         }
     }
 }
